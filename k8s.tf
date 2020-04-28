@@ -62,6 +62,5 @@ resource "azurerm_kubernetes_cluster" "k8s" {
 
     tags = {
         Environment = "Production"
-        Name = "dank8s"
     }
 }
